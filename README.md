@@ -20,46 +20,24 @@ The advisor algorithm uses Monte Carlo Simulation to estimate the probability of
 For each move, the program runs 10,000 simulated games and calculates the success rate, helping the player make statistically better decisions.
 
 Example output:
------------------------------------------------------------------------------------------------------------------------------
-╔══════════════════════════════════╗
-║      ?  BLACKJACK  ?             ║
-║      ?  Welcome!  ?              ║
-╚══════════════════════════════════╝
 
 Your balance: $1000
 Place your bet: $500
 
-┌─────────────────────────────────────────┐
   DEALER  (showing: 9)
-  .---------. .---------. 
-  |#########| |Q?       | 
-  |#########| |         | 
-  |#########| |    ?    | 
-  |#########| |         | 
-  |#########| |       ?Q| 
-  '---------' '---------' 
 
   Arif  (total: 10  |  balance: $500)
-  .---------. .---------. 
-  |8?       | |2?       | 
-  |         | |         | 
-  |    ?    | |    ?    | 
-  |         | |         | 
-  |       ?8| |       ?2| 
-  '---------' '---------' 
-└─────────────────────────────────────────┘
 
   Actions:  [H] Hit    [S] Stand    [D] Double Down    [?] Hint (3 left)
   Your choice: ?
 
-  ┌─── HINT (2 remaining) ───────────────┐
-  │  Stand:   23,7%                          │
-  │  Hit:     48,8%                          │
-  │  Double:  48,9%                          │
-  │  ?  Best action: DOUBLE DOWN
-  └──────────────────────────────────────────┘
 
------------------------------------------------------------------------------------------------------------------------------
+    Stand:   23,7%                          
+    Hit:     48,8%                          
+    Double:  48,9%                          
+    Best action: DOUBLE DOWN
+
+
 
 Requirements
 Java 8 or higher

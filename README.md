@@ -21,17 +21,6 @@ For each move, the program runs 10,000 simulated games and calculates the succes
 
 Example output:
 
-Your balance: $1000
-Place your bet: $500
-
-  DEALER  (showing: 9)
-
-  Arif  (total: 10  |  balance: $500)
-
-  Actions:  [H] Hit    [S] Stand    [D] Double Down    [?] Hint (3 left)
-  Your choice: ?
-
-
     Stand:   23,7%                          
     Hit:     48,8%                          
     Double:  48,9%                          
